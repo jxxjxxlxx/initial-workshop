@@ -1,13 +1,76 @@
-/* red target */
-div {
+#box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+  }
+  #target {
     width: 100px;
     height: 100px;
-    padding: 50px;
     background-color: red;
-    border: 1px dashed solid black;
-    box-sizing: border-box;
-}
-/* shaped table */
- table {
+    border: 2px dashed black;
+    margin: 50px;
+  }
 
- }
+  /* 2 */
+
+  table {
+    width: 300px;
+    height: 150px;
+    border: 1px black;
+  }
+  
+  td:nth-child(odd) {
+    background-color: skyblue;
+  } 
+/* how to  select the 2nd row ? */
+
+  /* 3 */
+
+  #boxes {
+    width: 300px;
+  }
+  
+  .box1 {
+    border: 1px solid black;
+    margin: 5px 0px;
+    color: white;
+  }
+  
+  .box1 div{
+    background-color: purple;
+  }
+  
+  .box1 div:first-child{
+    width: 50px;
+    margin: 2px;
+  }
+  
+  .box1 div:last-child{
+    width: 220px;
+    margin: 2px;
+  }
+  
+  .box2 {
+    border: 1px solid black;
+    margin: 5px 0px;
+    color: white;
+  }
+  
+  .box2 div{
+    background-color: purple;
+  }
+  
+  .box2 div:first-child{
+      width: 220px;
+      margin: 2px;
+      text-align: right;
+  }
+  
+  .box2 div:last-child{
+    width: 50px;
+    margin: 2px;
+    text-align: right;
+  }
+  
+  
+  /* looks too repetitive and not so logic*/
